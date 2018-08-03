@@ -1,0 +1,33 @@
+<idea-plugin>
+	<id>com.github.camork.quickcompletion</id>
+	<name>Quick Completion Plugin</name>
+	<vendor email="camork1@gmail.com" url="https://github.com/camork/quick-completion-plugin">Charles Wu</vendor>
+
+	<description><![CDATA[
+	<p>
+		A Intellij plugin which can insert your code completion item by hot key.
+	</p>
+
+	]]></description>
+
+	<extensions defaultExtensionNs="com.intellij" />
+
+	<actions>
+		<action
+			class="com.github.camork.InsertAction"
+			description="Complete current lookup element"
+			id="$InsertAction"
+			text="$InsertAction"
+		>
+			<keyboard-shortcut first-keystroke="1" keymap="$default" />
+			<keyboard-shortcut first-keystroke="2" keymap="$default" />
+			<keyboard-shortcut first-keystroke="3" keymap="$default" />
+			<keyboard-shortcut first-keystroke="4" keymap="$default" />
+			<keyboard-shortcut first-keystroke="5" keymap="$default" />
+			<keyboard-shortcut first-keystroke="6" keymap="$default" />
+			<keyboard-shortcut first-keystroke="7" keymap="$default" />
+			<keyboard-shortcut first-keystroke="8" keymap="$default" />
+			<keyboard-shortcut first-keystroke="9" keymap="$default" />
+		</action>
+	</actions>
+</idea-plugin>
